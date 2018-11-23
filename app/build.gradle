@@ -4,11 +4,11 @@ apply plugin: 'com.jfrog.bintray'
 version = "0.0.1"
 
 def groups = "com.lzf.android"
-def userOrgS = "cuieneymaster"
-def repos = "test"
-def names = "lzf"
-def siteUrl = 'https://github.com/lizhifeng-sky/StudioProjects' // 项目的主页
-def gitUrl = 'https://github.com/lizhifeng-sky/StudioProjects.git' // Git仓库的url
+def userOrgS = "android721"
+def repos = "testpackagename"
+def names = "test"
+def siteUrl = 'https://github.com/lizhifeng-sky/MavenTest' // 项目的主页
+def gitUrl = 'https://github.com/lizhifeng-sky/MavenTest.git' // Git仓库的url
 android {
     compileSdkVersion 27
     defaultConfig {
