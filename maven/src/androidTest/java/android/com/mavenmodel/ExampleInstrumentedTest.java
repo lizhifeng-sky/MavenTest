@@ -1,4 +1,4 @@
-package custom.android.com.maventest;
+package android.com.mavenmodel;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("custom.android.com.maventest", appContext.getPackageName());
+        assertEquals("android.com.mavenmodel.test", appContext.getPackageName());
     }
 }

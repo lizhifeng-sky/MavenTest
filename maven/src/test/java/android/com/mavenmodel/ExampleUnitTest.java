@@ -1,4 +1,4 @@
-package custom.android.com.maventest;
+package android.com.mavenmodel;
 
 import org.junit.Test;
 
